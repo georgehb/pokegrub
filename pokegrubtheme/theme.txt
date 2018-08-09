@@ -18,17 +18,15 @@ terminal-font: "Pokemon GB Regular 12"
 
 # OS list
 + boot_menu {
-		left = 5%
+		left = 22%
 		width = 90%
 		top = 70%
 		height = 42%
-		item_font = "Pokemon GB Regular 30"
-		selected_item_font = "Pokemon GB Regular 30"
+		item_font = "Pokemon GB Regular 20"
+		selected_item_font = "Pokemon GB Regular 20"
 		item_color = "#000000"
         selected_item_color = "#000000"
-        icon_height = 25
-        icon_width = 25
-        item_height = 30
+        item_height = 20
         item_padding = 15
 		item_spacing = 5
 		selected_item_pixmap_style= "select_bkg_*.png"
@@ -42,10 +40,10 @@ terminal-font: "Pokemon GB Regular 12"
 # Time progress Bar
 + progress_bar {
 		id = "__timeout__"
-		left = 19%
-		width = 259
+		left = 31%
+		width = 20%
 		top = 12%
-		height = 21
+		height = 3%
 		show_text = false
 		font = "Pokemon GB Regular 12"
 		text_color = "#ff009f"
