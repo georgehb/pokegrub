@@ -1,0 +1,56 @@
+# Pokegrub GRUB2 theme
+#
+# Designed by George Bartlett
+#
+# Pokemon GB Regular font is used, credit to Jackster Productions 
+
+# General
+
+title-text: ""
+title-font: "Pokemon GB Regular 30"
+title-color: "#E50B16"
+message-font: "Pokemon GB Regular 30"
+message-color: "#C8D608"
+message-bg-color: "#C8D608"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Pokemon GB Regular 12"
+
+# OS list
++ boot_menu {
+		left = 5%
+		width = 90%
+		top = 70%
+		height = 42%
+		item_font = "Pokemon GB Regular 30"
+		selected_item_font = "Pokemon GB Regular 30"
+		item_color = "#000000"
+        selected_item_color = "#000000"
+        icon_height = 25
+        icon_width = 25
+        item_height = 30
+        item_padding = 15
+		item_spacing = 5
+		selected_item_pixmap_style= "select_bkg_*.png"
+		menu_pixmap_style = ""
+		scrollbar = true
+		scrollbar_width = 24
+		scrollbar_thumb = ""
+		scrollbar_frame = ""
+}
+
+# Time progress Bar
++ progress_bar {
+		id = "__timeout__"
+		left = 19%
+		width = 259
+		top = 12%
+		height = 21
+		show_text = false
+		font = "Pokemon GB Regular 12"
+		text_color = "#ff009f"
+		text = ""
+		bar_style = "progress_bar_*.png"
+		highlight_style = "progress_highlight_*.png"
+}
+
