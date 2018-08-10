@@ -28,7 +28,8 @@ terminal-font: "Pokemon GB Regular 12"
         selected_item_color = "#000000"
         item_height = 20
         item_padding = 15
-		item_spacing = 5
+        icon_width = 10
+        item_spacing = 6
 		selected_item_pixmap_style= "select_bkg_*.png"
 		menu_pixmap_style = ""
 		scrollbar = true
@@ -42,8 +43,8 @@ terminal-font: "Pokemon GB Regular 12"
 		id = "__timeout__"
 		left = 31%
 		width = 20%
-		top = 12%
-		height = 3%
+		top = 9%
+		height = 9%
 		show_text = false
 		font = "Pokemon GB Regular 12"
 		text_color = "#ff009f"
