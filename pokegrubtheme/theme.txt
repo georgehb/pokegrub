@@ -44,7 +44,7 @@ terminal-font: "Pokemon GB Regular 12"
 		left = 31%
 		width = 20%
 		top = 9%
-		height = 9%
+		height = 10%
 		show_text = false
 		font = "Pokemon GB Regular 12"
 		text_color = "#ff009f"
